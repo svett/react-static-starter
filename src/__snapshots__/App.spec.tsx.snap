@@ -16,6 +16,9 @@ exports[`renders learn react link 1`] = `
         }
       }
     />
+    <h1>
+      welcome to react-static starter kit
+    </h1>
     <p>
       Edit 
       <code>
