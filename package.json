@@ -3,10 +3,9 @@
   "private": true,
   "scripts": {
     "start": "react-static start",
-    "stage": "react-static build --staging",
     "build": "react-static build",
-    "bundle": "react-static bundle",
-    "export": "react-static export",
+    "stage": "react-static build --staging",
+    "analyze": "react-static build --analyze",
     "serve": "serve dist -p 3000 -s",
     "lint": "eslint 'src/**/*.ts{,x}'",
     "test": "echo '1'"
