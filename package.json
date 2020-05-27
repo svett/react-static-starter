@@ -6,7 +6,7 @@
     "build": "react-static build",
     "stage": "react-static build --staging",
     "analyze": "react-static build --analyze",
-    "serve": "serve dist -p 3000 -s",
+    "serve": "serve build/dist -p 3000 -s",
     "lint": "eslint 'src/**/*.ts{,x}'",
     "test": "jest"
   },

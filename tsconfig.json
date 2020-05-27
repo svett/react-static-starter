@@ -28,6 +28,7 @@
     "isolatedModules": true
   },
   "exclude": [
+    "build/**/*",
     "artifacts/**/*",
     "dist/**/*",
     "public/**/*",
