@@ -5701,7 +5701,7 @@ mime-types@2.1.18:
   dependencies:
     mime-db "~1.33.0"
 
-mime-types@~2.1.17, mime-types@~2.1.24:
+mime-types@^2.1.27, mime-types@~2.1.17, mime-types@~2.1.24:
   version "2.1.27"
   resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.27.tgz#47949f98e279ea53119f5722e0f34e529bec009f"
   integrity sha512-JIhqnCasI9yD+SsmkquHBxTSEuZdQX5BuQnS2Vc7puQQQ+8yiP5AY5uWhpdv4YL4VM5c6iliiYWPgJ/nJQLp7w==
@@ -7195,6 +7195,13 @@ react-side-effect@^1.1.0:
   integrity sha512-v1ht1aHg5k/thv56DRcjw+WtojuuDHFUgGfc+bFHOWsF4ZK6C2V57DO0Or0GPsg6+LSTE0M6Ry/gfzhzSwbc5w==
   dependencies:
     shallowequal "^1.0.1"
+
+react-static-plugin-metadata@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-static-plugin-metadata/-/react-static-plugin-metadata-0.0.2.tgz#a4f38a278b0391559b9514863222b68fcc87565f"
+  integrity sha512-QnwIIZX/HyXS3tXkWjAS2KjqEvOawzDFiRuUBM+xXEZP3aR46wxNccN7sTvRPom17BinqgrGx/1Mqh6Fmbz+bQ==
+  dependencies:
+    mime-types "^2.1.27"
 
 react-static-plugin-reach-router@^7.2.0:
   version "7.3.0"

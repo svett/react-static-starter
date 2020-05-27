@@ -8,7 +8,8 @@
     "bundle": "react-static bundle",
     "export": "react-static export",
     "serve": "serve dist -p 3000 -s",
-    "lint": "eslint 'src/**/*.ts{,x}'"
+    "lint": "eslint 'src/**/*.ts{,x}'",
+    "test": "echo '1'"
   },
   "dependencies": {
     "@reach/router": "^1.2.1",
@@ -16,6 +17,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-static": "^7.2.0",
+    "react-static-plugin-metadata": "^0.0.2",
     "react-static-plugin-reach-router": "^7.2.0",
     "react-static-plugin-sitemap": "^7.2.0",
     "react-static-plugin-source-filesystem": "^7.2.0",
