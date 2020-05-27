@@ -9809,6 +9809,11 @@ react-side-effect@^1.1.0:
   dependencies:
     shallowequal "^1.0.1"
 
+react-static-plugin-media@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/react-static-plugin-media/-/react-static-plugin-media-0.0.2.tgz#07d271ba022adb0e4b43081902ce213545f8355a"
+  integrity sha512-r82PH9ot+W7W7/wEst/v9hMfYM329saJWWqnebZkFI+svI58Y8Pn67xYYowKhi1O+hu7bsCMdDR4Jm0JfdehLA==
+
 react-static-plugin-metadata@^0.0.2:
   version "0.0.2"
   resolved "https://registry.yarnpkg.com/react-static-plugin-metadata/-/react-static-plugin-metadata-0.0.2.tgz#a4f38a278b0391559b9514863222b68fcc87565f"

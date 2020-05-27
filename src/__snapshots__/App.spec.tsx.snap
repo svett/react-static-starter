@@ -1,50 +1,51 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`renders learn react link 1`] = `
-<Root>
-  <nav>
-    <Link
-      to="/"
-    >
-      Home
-    </Link>
-    <Link
-      to="/about"
-    >
-      About
-    </Link>
-    <Link
-      to="/blog"
-    >
-      Blog
-    </Link>
-    <Link
-      to="/dynamic"
-    >
-      Dynamic
-    </Link>
-  </nav>
-  <div
-    className="content"
+<div
+  className="App"
+>
+  <header
+    className="App-header"
   >
-    <FancyDiv>
-      <Suspense
-        fallback={
-          <em>
-            Loading...
-          </em>
+    <img
+      alt="logo"
+      className="App-logo"
+      src={
+        Object {
+          "default": Object {},
         }
+      }
+    />
+    <p>
+      Edit 
+      <code>
+        src/App.js
+      </code>
+       and save to reload.
+    </p>
+    <span>
+      Learn
+       
+      <a
+        className="App-link"
+        href="https://reactjs.org"
+        rel="noopener noreferrer"
+        target="_blank"
       >
-        <Router>
-          <Dynamic
-            path="dynamic"
-          />
-          <Routes
-            path="*"
-          />
-        </Router>
-      </Suspense>
-    </FancyDiv>
-  </div>
-</Root>
+        React
+      </a>
+       
+      and
+       
+      <a
+        className="App-link"
+        href="https://react-static.js.org"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        React Static
+      </a>
+    </span>
+  </header>
+</div>
 `;

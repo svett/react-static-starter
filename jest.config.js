@@ -3,16 +3,18 @@ module.exports = {
   collectCoverageFrom: ["src/**/*.{js,jsx,ts,tsx}", "!src/**/*.d.ts"],
   moduleDirectories: ["node_modules", "src"],
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
-  setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"],
+  setupFilesAfterEnv: ["<rootDir>/config/jest.setup.ts"],
   transform: {
-    "^.+\\.tsx?$": "ts-jest"
+    "^.+\\.tsx?$": "ts-jest",
+    "^.+\\.css$":  "<rootDir>/config/jest.transform.js",
+    "^.+\\.png":  "<rootDir>/config/jest.transform.js"
   },
   testMatch: [
     "**/src/**/*.spec.ts?(x)"
   ],
   globals: {
     "ts-jest": {
-      "tsConfig": "<rootDir>/tsconfig.test.json"
+      "tsConfig": "<rootDir>/config/jest.tsconfig.json"
     }
   }
 };
